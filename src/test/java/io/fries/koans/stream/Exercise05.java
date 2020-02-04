@@ -37,7 +37,7 @@ class Exercise05 extends OnlineStore {
         Set<Integer> ageSet = null;
 
         assertThat(ageSet).hasSize(9);
-        assertThat(ageSet).containsExactly(21, 22, 26, 27, 28, 32, 35, 36, 38);
+        assertThat(ageSet).containsExactlyInAnyOrder(21, 22, 26, 27, 28, 32, 35, 36, 38);
     }
 
     /**
